@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>GIFFFFFFFY!</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </head>
+
+    <body style="background-image: url(assets/media/scrollingGif.gif); color: white;">
+        <div class="container">
+            <div class="row">
+                <div id="buttons">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div id="gifs">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group mb-3">
+                        <form>
+                            <input type="text" id="user-input" placeholder="New GIFFFFFFFY">
+                            <div class="input-group-append">
+                                <input class="btn btn-outline-secondary" style="background: grey; color: white;" id="add-button" type="submit"></input>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        createButtons()
+    </script>
+</html>
